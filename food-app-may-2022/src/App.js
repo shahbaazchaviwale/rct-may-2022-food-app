@@ -1,4 +1,6 @@
+import HomePage from "./pages/home";
+import "./style/variable.css";
 const App = () => {
-  return <div>react app!</div>
-}
+  return <HomePage />;
+};
 export default App;
