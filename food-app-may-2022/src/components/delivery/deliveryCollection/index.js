@@ -89,7 +89,7 @@ const DeliveryCollection = () => {
         <div className="collection-title">Eat what makes you happy</div>
         <Slider {...settings}>
             {deliveryItems.map((item) => {
-                return <DeliveryItem item={item}/>
+                return <DeliveryItem key={item.id} item={item}/>
             })}
         </Slider>
       </div>

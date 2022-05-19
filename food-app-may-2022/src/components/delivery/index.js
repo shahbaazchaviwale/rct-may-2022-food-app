@@ -1,4 +1,6 @@
 import React from "react";
+import { restaurants } from "../../data/restaurants";
+import ExplorerSection from "../common/explorerSection";
 import Filters from "../common/filters";
 import "./delivery.css";
 import DeliveryCollection from "./deliveryCollection";
@@ -39,6 +41,7 @@ const Delivery = () => {
       </div>
       <DeliveryCollection />
       <TopBrand />
+      <ExplorerSection restaurantList={restaurants} collection_title={'Delivery Restaurant in Bengalore'}/>
     </>
   );
 };
