@@ -1,6 +1,6 @@
 import React from "react"
 const Footer = () => {
-    return <div>Made by Me</div>
+    return <div className="max-width absolute-center">Made by Me </div>
 }
 
 export default Footer;
