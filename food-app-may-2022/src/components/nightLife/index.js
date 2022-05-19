@@ -3,7 +3,6 @@ import { nightLife, nightLifeData } from "../../data/nightLife";
 import Collection from "../common/collection";
 import ExplorerSection from "../common/explorerSection";
 import Filters from "../common/filters";
-import "./nightLife.css";
 
 const collectionList = [
   {
@@ -85,7 +84,6 @@ const NightLife = () => {
         <Filters filterList={nightFilters} />
       </div>
       <ExplorerSection restaurantList={nightLifeList} collection_title={'Nightlife Restaurants  in Bengalore'}/>
-
     </div>
   );
 };

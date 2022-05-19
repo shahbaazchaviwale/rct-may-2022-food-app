@@ -47,7 +47,7 @@ const ExploreCard = ({ restaurant, i }) => {
         {cuisines.length && (
           <div className="res-cuisine">
             {cuisines.map((item, i) => (
-              <span className="res-cuisine-tag">
+              <span key={i} className="res-cuisine-tag">
                 {item}
                 {i !== cuisines.length - 1 && ","}
               </span>

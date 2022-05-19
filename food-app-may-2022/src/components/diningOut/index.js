@@ -3,7 +3,6 @@ import { dining } from "../../data/dining";
 import Collection from "../common/collection";
 import ExplorerSection from "../common/explorerSection";
 import Filters from "../common/filters";
-import "./diningOut.css";
 
 const collectionList = [
   {
